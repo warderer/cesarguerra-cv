@@ -2,12 +2,12 @@ body {
     margin: 0;
 }
 
-header, main {
+header, main, footer {
 /* Centering main containers content with margin-left and right in auto*/
     margin: 0 auto;
 }
 
-header {
+header, footer {
     background-color:#3d8b9c;
     text-align: center;
 }
@@ -27,6 +27,17 @@ header section {
 
 main {
     max-width: 1140px;
+}
+
+footer {
+    padding: 1em 1.5em;
+    color:#fff;
+}
+
+footer a {
+    color: wheat;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #skills-content, experience-content, education-content{
