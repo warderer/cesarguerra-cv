@@ -36,9 +36,16 @@ main {
     flex-wrap: wrap;
 }
 
-.column{
+.column-2{
     /* flex-grow | flex-shrink | flex-basis */
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
+}
+
+.column-1{
+    /* flex-grow | flex-shrink | flex-basis */
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
