@@ -29,7 +29,7 @@ main {
     max-width: 1140px;
 }
 
-#skills{
+#skills-content, experience-content, education-content{
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
