@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
 body {
     margin: 0;
+    font-size:16px;
+    font-family: 'Merriweather', serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 header, main, footer {
@@ -31,6 +40,7 @@ header section {
 
 main {
     max-width: 1140px;
+    padding-top:40px;
 }
 
 section {
