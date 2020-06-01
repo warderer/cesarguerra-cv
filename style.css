@@ -7,6 +7,10 @@ header, main, footer {
     margin: 0 auto;
 }
 
+header {
+    padding-bottom: 25px;
+}
+
 header, footer {
     background-color:#3d8b9c;
     text-align: center;
@@ -29,6 +33,14 @@ main {
     max-width: 1140px;
 }
 
+section {
+    /*
+    display:inline-block;
+    vertical-align: top;
+    */
+    margin-bottom:20px;
+}
+
 footer {
     padding: 1em 1.5em;
     color:#fff;
@@ -40,7 +52,7 @@ footer a {
     text-decoration: none;
 }
 
-#skills-content, experience-content, education-content{
+#skills-content, #experience-content, #education-content{
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -49,9 +61,10 @@ footer a {
 
 .column-2{
     /* flex-grow | flex-shrink | flex-basis */
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+    -ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+    max-width: 45%;
+    padding: 0 2.5%;
 }
 
 .column-1{
@@ -59,4 +72,20 @@ footer a {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .column-2 {
+        max-width: 90%;
+        -ms-flex: 0 0 90%;
+        flex: 0 0 90%;
+    }
+
+    main, header {
+        padding: 0 15px;
+    }
+
+    header {
+        padding-bottom: 15px;;
+    }
 }
