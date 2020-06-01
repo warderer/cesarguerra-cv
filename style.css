@@ -58,7 +58,7 @@ h3 {
 h3:before {
     content: "✔";
     padding-right: 0.5em;
-    color: #509e98;
+    color: #3d8b9c;
 }
 
 p { 
@@ -71,7 +71,7 @@ article p {
 }
 
 .experience-date, .education-date{
-    background-color:#509e98;
+    background-color:#3d8b9c;
     color:#fff;
     border-radius:5px;
     padding:5px;
