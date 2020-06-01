@@ -51,11 +51,36 @@ h2 {
     color:#3d8b9c;
 }
 
-h3{
+h3 {
     margin:0;
 }
 
-p { margin-top:0;}
+h3:before {
+    content: "✔";
+    padding-right: 0.5em;
+    color: #509e98;
+}
+
+p { 
+    margin-top:0;
+}
+
+article p {
+    padding-left:1.5em;
+    margin-top:10px;
+}
+
+.experience-date, .education-date{
+    background-color:#509e98;
+    color:#fff;
+    border-radius:5px;
+    padding:5px;
+    display:inline-block;
+    font-size:12px;
+    font-style: italic;
+    margin-left:1.5em;
+    margin-top:5px;
+}
 
 main {
     max-width: 1140px;
